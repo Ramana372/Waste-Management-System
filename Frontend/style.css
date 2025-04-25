@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Section Styles */
+.section-content {
+    padding: 1rem 0;
+}
+
+.section-content h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+/* Table Styles */
+.table {
+    background-color: white;
+    border-radius: 0.25rem;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+}
+
+.btn-primary:hover {
+    background-color: #357abd;
+    border-color: #357abd;
+}
+
+/* Status Badges */
+.badge {
+    padding: 0.5em 0.75em;
+    font-weight: 500;
+}
+
+.badge-pending {
+    background-color: #ffd700;
+    color: #000;
+}
+
+.badge-in-progress {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.badge-completed {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .table-responsive {
+        margin-bottom: 0;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #e0ffe0;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+form input, form button {
+    margin: 5px;
+    padding: 5px;
+}
+  
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.section-content {
+    display: none;
+}
+
+.section-content:not(.d-none) {
+    display: block;
+}
+
+.card-feature {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.btn-lg {
+    padding: 0.75rem 2rem;
+}
